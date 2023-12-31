@@ -41,8 +41,8 @@ import_list(job_t, joblist);
 joblist create_joblist(void)
 {
 	joblist jobs = new(joblist);
-    job_t tomjob = { "Do Homework", "tom", 100 };
-    job_t amyjob = { "Watch TV", "amy", 200 };
+	job_t tomjob = { "Do Homework", "tom", 100 };
+	job_t amyjob = { "Watch TV", "amy", 200 };
 	list_add(jobs, tomjob);
 	list_add(jobs, ((job_t){ "Eat Dinner", "james", 25 }));
 	list_add(jobs, amyjob);
